@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/app-currency-converter-11062022",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
